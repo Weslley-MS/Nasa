@@ -1,4 +1,4 @@
-# Nasa
+# Teste Spark
 
 ### 1 - Qual o objetivo do comando cache em Spark?
 R: O comando armazena os dados da execução de ações em memória para que quando outra ação for chamada, não seja necessário realizar todo o processamento novamente.
@@ -98,3 +98,9 @@ R: O  groupByKey faz o embaralhamento entre pares antes do particionamento do RD
 |21/Jul/1995|     122|<br />
 
 5 - 58.299161189 gigas recebidos
+
+# Observações:
+ O código foi feito no google colab, para executar basta apenas dar "! pip install pyspark" para carregar o pyspark e subir as tabelas com os seguintes comandos:<br />
+ 
+from google.colab import files<br />
+uploaded = files.upload()<br />
